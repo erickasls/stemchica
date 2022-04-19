@@ -1,3 +1,3 @@
 # stemchica
 
-My personal website made using R. 
+My personal website made using RStudio :)
