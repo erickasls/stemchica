@@ -15,3 +15,64 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+
+
+
+baseurl = "https://stemchica.me/"
+title = "Creative Scientist Portfolio"
+theme = "hugo-creative-portfolio-theme"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+#googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Describe your website"
+  copyright = "&copy;2022 STEMCHICA Powered by Ericka Fernanda Salas-Garcia "  
+  sidebarAbout = [
+    "I am a Latina creative and scientist. My current pursuits are Data Science and Writing."
+    "I grew up in grew up in South Texas and I am constantly inspired of the biological and "
+    "technological evolution of the world around me. That is why I changed my career from General"
+    "Biology to Computational Biology along with two minors Computer Science & Applied Statical Modeling."
+    "I graduate from the University of Texas in Spring 2022." ]
+    
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "erickafs00@gmail.com"
+
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+
+  email         = "erickafs00@gmail.com"
+  linkedin      = "linkedin.com/in/erickasalas"
+  instagram     = "instagram.com/stemchica"
+  github        = "github.com/erickasls"
+  
+
