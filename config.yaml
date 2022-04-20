@@ -4,10 +4,10 @@ title: STEM Chica
 theme: hugo-creative-portfolio-theme
 
 [params]
-  style = "default"
-  description = "Showcasing my projects and journey as a First-Generation Latina in STEM. I am passionate of Science & Technology and inspire others like me to pursue STEM and own up to being the outlier in their group."
-  copyright = "&copy;2022 STEMCHICA Powered by Ericka Fernanda Salas-Garcia "
-  sidebarAbout = [
+  style: "default"
+  description: "Showcasing my projects and journey as a First-Generation Latina in STEM. I am passionate of Science & Technology and inspire others like me to pursue STEM and own up to being the outlier in their group."
+  copyright: "&copy;2022 STEMCHICA Powered by Ericka Fernanda Salas-Garcia "
+  sidebarAbout:  [
     "I am a Latina creative and scientist. My current pursuits are Data Science and Writing."
     "I grew up in grew up in South Texas and I am constantly inspired of the biological and "
     "technological evolution of the world around me. That is why I changed my career from General"
